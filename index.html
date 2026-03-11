@@ -1,1299 +1,831 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--<< Header Area >>-->
-
 
 <head>
-    <!-- ========== Meta Tags ========== -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="authorName">
-    <meta name="description" content="Fakir Venture - IT Solution and Technology HTML Template">
-    <!-- ======== Page title ============ -->
-    <title>Fakir Venture - This is a Venture Company Agricalture and Technology</title>
-    <!--<< Favcion >>-->
-    <link rel="shortcut icon" href="assets/img/logo/favs.png">
-    <!--<< Bootstrap min.css >>-->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!--<< All Min Css >>-->
-    <link rel="stylesheet" href="assets/css/all.min.css">
-    <!--<< Animate.css >>-->
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <!--<< Magnific Popup.css >>-->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <!--<< MeanMenu.css >>-->
-    <link rel="stylesheet" href="assets/css/meanmenu.css">
-    <!--<< Swiper Bundle.css >>-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <!--<< Nice Select.css >>-->
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-    <!--<< Main.css >>-->
-    <link rel="stylesheet" href="assets/css/main.css">
+  <meta charset="UTF-8">
+
+  <!-- === BASIC META TAGS === -->
+  <title>Fakir Ventures | AI-Native Venture Builder for Agriculture & Technology</title>
+  <meta name="description"
+    content="Fakir Ventures builds and scales AI-native companies across agriculture, software, fintech, and more. 50+ portfolio companies, 10 sectors, powered by 5 core members in Bangladesh.">
+  <meta name="keywords"
+    content="venture capital, venture builder, AI companies, agriculture technology, agritech, software development, fintech, Bangladesh startups, AI innovation, Fakir Ventures, Growsoft, FakirAgro, Shihab Law">
+  <meta name="author" content="Fakir Ventures">
+  <meta name="copyright" content="Fakir Ventures">
+  <meta name="language" content="en">
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- === CANONICAL URL === -->
+  <link rel="canonical" href="https://www.fakirventures.com/">
+
+  <!-- === OPEN GRAPH META TAGS (Facebook, LinkedIn) === -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.fakirventures.com/">
+  <meta property="og:title" content="Fakir Ventures | AI-Native Venture Builder">
+  <meta property="og:description"
+    content="Building the future with AI & Agriculture. 50+ portfolio companies, 10 sectors, 5 core members. Join us in transforming industries.">
+  <meta property="og:image" content="https://www.fakirventures.com/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Fakir Ventures - Building the Future with AI & Agriculture">
+  <meta property="og:site_name" content="Fakir Ventures">
+  <meta property="og:locale" content="en_US">
+
+  <!-- === TWITTER META TAGS === -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://www.fakirventures.com/">
+  <meta name="twitter:title" content="Fakir Ventures | AI-Native Venture Builder">
+  <meta name="twitter:description"
+    content="Building the future with AI & Agriculture. 50+ portfolio companies, 10 sectors, 5 core members.">
+  <meta name="twitter:image" content="https://www.fakirventures.com/images/twitter-image.jpg">
+  <meta name="twitter:site" content="@fakirventures">
+  <meta name="twitter:creator" content="@fakirventures">
+
+  <!-- === FAVICON & APP ICONS === -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#22c55e">
+  <meta name="msapplication-TileColor" content="#22c55e">
+
+  <!-- === ADDITIONAL META TAGS === -->
+  <meta name="format-detection" content="telephone=no">
+  <meta name="geo.region" content="BD">
+  <meta name="geo.placename" content="Dhaka">
+  <meta name="geo.position" content="23.7925;90.4066">
+  <meta name="ICBM" content="23.7925, 90.4066">
+
+  <!-- === VERIFICATION CODES (Add your own) === -->
+  <meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE">
+  <meta name="msvalidate.01" content="YOUR_BING_VERIFICATION_CODE">
+  <meta name="yandex-verification" content="YOUR_YANDEX_CODE">
+  <meta name="facebook-domain-verification" content="YOUR_FACEBOOK_CODE">
+
+  <!-- === SCHEMA MARKUP (JSON-LD) === -->
+
+  <!-- 1. Organization Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Corporation",
+    "@id": "https://www.fakirventures.com/#organization",
+    "name": "Fakir Ventures",
+    "alternateName": "Fakir Ventures Limited",
+    "url": "https://www.fakirventures.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.fakirventures.com/images/logo.png",
+      "width": "200",
+      "height": "60"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/company/fakirventures",
+      "https://twitter.com/fakirventures",
+      "https://www.facebook.com/fakirventures"
+    ],
+    "email": "contact@fakirventures.com",
+    "telephone": "+8801234567890",
+    "description": "Venture builder creating AI-native companies across agriculture, software, fintech, and more. 50+ portfolio companies, 10 sectors, powered by 5 core members.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "House 12, Road 5, Block C, Banani",
+      "addressLocality": "Dhaka",
+      "addressRegion": "Dhaka",
+      "postalCode": "1213",
+      "addressCountry": {
+        "@type": "Country",
+        "name": "Bangladesh",
+        "code": "BD"
+      }
+    },
+    "founder": [
+      {
+        "@type": "Person",
+        "name": "Shihab",
+        "jobTitle": "Chief Executive Officer & Founder",
+        "description": "Visionary leader, driving innovation & strategy"
+      },
+      {
+        "@type": "Person",
+        "name": "Tawhid",
+        "jobTitle": "Co-Founder & Chief Operating Officer",
+        "description": "Operations & systems development"
+      },
+      {
+        "@type": "Person",
+        "name": "Ratin",
+        "jobTitle": "Co-Founder & Chief Operating Officer",
+        "description": "Growth & portfolio scaling"
+      }
+    ],
+    "foundingDate": "2020",
+    "foundingLocation": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Dhaka",
+        "addressCountry": "Bangladesh"
+      }
+    },
+    "numberOfEmployees": {
+      "@type": "QuantitativeValue",
+      "value": "5",
+      "unitText": "core team members"
+    },
+    "knowsAbout": [
+      "Artificial Intelligence",
+      "Agriculture Technology",
+      "Software Development",
+      "Fintech",
+      "Venture Capital",
+      "Web3",
+      "Blockchain"
+    ],
+    "slogan": "Building the Future with AI & Agriculture",
+    "areaServed": [
+      {
+        "@type": "Country",
+        "name": "Bangladesh"
+      },
+      {
+        "@type": "Country",
+        "name": "Global"
+      }
+    ]
+  }
+  </script>
+
+  <!-- 2. Website Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://www.fakirventures.com/#website",
+    "url": "https://www.fakirventures.com",
+    "name": "Fakir Ventures",
+    "description": "Building the future with AI & Agriculture",
+    "publisher": {
+      "@id": "https://www.fakirventures.com/#organization"
+    },
+    "inLanguage": "en",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.fakirventures.com/search?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- 3. Local Business Schema (for Google Maps/Places) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://www.fakirventures.com/#localbusiness",
+    "name": "Fakir Ventures",
+    "image": "https://www.fakirventures.com/images/office.jpg",
+    "url": "https://www.fakirventures.com",
+    "telephone": "+8801234567890",
+    "email": "contact@fakirventures.com",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "House 12, Road 5, Block C, Banani",
+      "addressLocality": "Dhaka",
+      "addressRegion": "Dhaka",
+      "postalCode": "1213",
+      "addressCountry": "Bangladesh"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "23.7925",
+      "longitude": "90.4066"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "18:00"
+      }
+    ],
+    "sameAs": [
+      "https://www.linkedin.com/company/fakirventures",
+      "https://twitter.com/fakirventures",
+      "https://www.facebook.com/fakirventures"
+    ]
+  }
+  </script>
+
+  <!-- 4. Breadcrumb Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "@id": "https://www.fakirventures.com/#breadcrumb",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.fakirventures.com/"
+      }
+    ]
+  }
+  </script>
+
+  <!-- 5. FAQ Schema (if you have FAQ on homepage) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "@id": "https://www.fakirventures.com/#faq",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Fakir Ventures?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Fakir Ventures is a venture builder creating AI-native companies across agriculture, software, fintech, and more. We have 50+ portfolio companies across 10 sectors, powered by 5 core members."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Where is Fakir Ventures located?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Our headquarters is in Dhaka, Bangladesh, with operations across 10 countries globally."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What companies are in Fakir Ventures portfolio?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Our portfolio includes Growsoft (software), FakirAgro (agriculture), Shihab Law (legal tech), and 47+ other innovative companies across 10 sectors."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I invest in Fakir Ventures?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can contact us through our contact page or email us at contact@fakirventures.com to discuss investment opportunities."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How many team members does Fakir Ventures have?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We have 5 core team members dedicated to building and scaling our portfolio companies."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- 6. ItemList Schema for Featured Companies -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "@id": "https://www.fakirventures.com/#featured-companies",
+    "name": "Featured Portfolio Companies",
+    "description": "Showcasing our top portfolio companies",
+    "numberOfItems": "3",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Organization",
+          "name": "Growsoft",
+          "description": "Leading software development company creating innovative AI-powered solutions for businesses worldwide.",
+          "url": "https://www.fakirventures.com/child-companies.html#growsoft",
+          "sector": "Software",
+          "location": "Dhaka, Bangladesh"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Organization",
+          "name": "FakirAgro",
+          "description": "Revolutionizing agriculture with AI-driven crop optimization and sustainable farming solutions.",
+          "url": "https://www.fakirventures.com/child-companies.html#fakirago",
+          "sector": "Agriculture",
+          "location": "Rural Bangladesh"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "Organization",
+          "name": "Shihab Law",
+          "description": "Specialized formula and legal technology company providing innovative solutions for legal professionals.",
+          "url": "https://www.fakirventures.com/child-companies.html#shihab-law",
+          "sector": "Legal Tech",
+          "location": "Dhaka, Bangladesh"
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- 7. ImageObject Schema for Hero Image -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ImageObject",
+    "@id": "https://www.fakirventures.com/#hero-image",
+    "url": "https://www.fakirventures.com/images/hero-bg.jpg",
+    "name": "Fakir Ventures Hero Image",
+    "description": "AI Technology Background representing Fakir Ventures' focus on artificial intelligence",
+    "contentUrl": "https://images.unsplash.com/photo-1485827031228-b1736cb1fd06",
+    "thumbnail": "https://images.unsplash.com/photo-1485827031228-b1736cb1fd06?w=200",
+    "keywords": "AI, technology, innovation, future"
+  }
+  </script>
+
+  <!-- 8. PotentialAction Schema (for better search results) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://www.fakirventures.com/#organization",
+    "potentialAction": [
+      {
+        "@type": "ContactAction",
+        "name": "Contact Fakir Ventures",
+        "url": "https://www.fakirventures.com/contact.html",
+        "description": "Get in touch with our team"
+      },
+      {
+        "@type": "InvestAction",
+        "name": "Invest in Fakir Ventures",
+        "url": "https://www.fakirventures.com/investors-partners.html",
+        "description": "Explore investment opportunities"
+      }
+    ]
+  }
+  </script>
+
+  <!-- 9. AboutPage Schema (linking to about page) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "@id": "https://www.fakirventures.com/about.html",
+    "name": "About Fakir Ventures",
+    "description": "Learn about our journey since 2020",
+    "isPartOf": {
+      "@id": "https://www.fakirventures.com/#website"
+    },
+    "primaryImageOfPage": {
+      "@type": "ImageObject",
+      "url": "https://www.fakirventures.com/images/about-hero.jpg"
+    }
+  }
+  </script>
+
+  <!-- 10. ContactPage Schema (linking to contact page) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "@id": "https://www.fakirventures.com/contact.html",
+    "name": "Contact Fakir Ventures",
+    "description": "Get in touch with our team",
+    "isPartOf": {
+      "@id": "https://www.fakirventures.com/#website"
+    }
+  }
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Amiri:wght@400;700&display=swap"
+    rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+
+    .arabic {
+      font-family: 'Amiri', serif;
+    }
+  </style>
 </head>
 
-<body>
+<body class="bg-gray-950 text-white min-h-screen flex flex-col">
 
-    <!-- Preloader Start -->
-    <div id="preloader" class="preloader">
-        <div class="animation-preloader">
-            <div class="spinner">
-            </div>
-            <div class="txt-loading">
-                <span data-text-preloader="F" class="letters-loading">
-                    F
-                </span>
-                <span data-text-preloader="A" class="letters-loading">
-                    A
-                </span>
-                <span data-text-preloader="C" class="letters-loading">
-                    C
-                </span>
-                <span data-text-preloader="K" class="letters-loading">
-                    K
-                </span>
-                <span data-text-preloader="I" class="letters-loading">
-                    I
-                </span>
-                <span data-text-preloader="R" class="letters-loading">
-                    R
-                </span>
-            </div>
-            <p class="text-center">Loading</p>
-        </div>
-        <div class="loader">
-            <div class="row">
-                <div class="col-3 loader-section section-left">
-                    <div class="bg"></div>
-                </div>
-                <div class="col-3 loader-section section-left">
-                    <div class="bg"></div>
-                </div>
-                <div class="col-3 loader-section section-right">
-                    <div class="bg"></div>
-                </div>
-                <div class="col-3 loader-section section-right">
-                    <div class="bg"></div>
-                </div>
-            </div>
-        </div>
+  <!-- HEADER -->
+  <header class="bg-gray-900/80 backdrop-blur-md fixed w-full z-50 border-b border-gray-800">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="index.html" class="text-2xl font-bold text-green-400">Fakir Ventures</a>
+      <nav class="hidden md:flex space-x-8">
+        <a href="index.html" class="text-green-400">Home</a>
+        <a href="about.html" class="hover:text-green-400">About</a>
+        <a href="child-companies.html" class="hover:text-green-400">Child Companies</a>
+        <a href="sectors.html" class="hover:text-green-400">Sectors</a>
+        <a href="investors-partners.html" class="hover:text-green-400">Investors & Partners</a>
+        <a href="contact.html" class="hover:text-green-400">Contact</a>
+      </nav>
+      <a href="investors-partners.html"
+        class="bg-green-500 px-5 py-2 rounded-lg text-black font-semibold hover:bg-green-400">
+        Invest
+      </a>
     </div>
+  </header>
 
-    <!-- Start Cursor Pointer -->
-    <div class="mouse-follower">
-        <span class="cursor-outline"></span>
-        <span class="cursor-dot"></span>
+  <main class="flex-1">
+
+    <!-- HERO SECTION WITH BACKGROUND IMAGE AND AYAT -->
+    <section class="relative min-h-screen flex items-center justify-center text-center px-6 overflow-hidden">
+      <!-- Background Image with Overlay -->
+      <div class="absolute inset-0 z-0">
+        <img
+          src="https://images.unsplash.com/photo-1485827031228-b1736cb1fd06?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80"
+          alt="AI Technology Background" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-gradient-to-br from-black/95 via-gray-900/95 to-green-900/90"></div>
+      </div>
+
+      <div class="relative z-10 max-w-4xl mt-20">
+        <!-- Arabic Ayat Section -->
+        <div class="mb-8 space-y-4 bg-black/40 p-6 rounded-2xl border border-green-500/30 backdrop-blur-sm">
+          <div class="arabic text-2xl md:text-3xl text-green-400 leading-loose">
+            بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+          </div>
+          <div class="arabic text-2xl md:text-3xl text-green-300 leading-loose">
+            اِهۡدِنَا الصِّرَاطَ الۡمُسۡتَقِيمَ
+          </div>
+          <div class="arabic text-xl md:text-2xl text-green-200 leading-loose">
+            اتَّبِعُوْا مَنْ لَّا يَسْـَٔلُكُمْ اَجْرًا وَّهُمْ مُّهْتَدُوْنَ
+          </div>
+          <div class="arabic text-xl md:text-2xl text-green-100 leading-loose">
+            إنما الأعمال بالنيات
+          </div>
+        </div>
+
+        <h1 class="text-5xl md:text-7xl font-extrabold leading-tight">
+          Building the
+          <span class="text-green-400">Future</span> with
+        </h1>
+        <h2 class="text-4xl md:text-6xl font-bold text-green-400 mt-2">
+          AI & Agriculture
+        </h2>
+        <p class="mt-6 text-lg md:text-xl text-gray-300 max-w-2xl mx-auto">
+          We build and scale AI-native companies across high-impact sectors.
+          <span class="text-green-400 font-semibold">50+ portfolio companies</span> and growing.
+        </p>
+
+        <!-- Stats -->
+        <div class="mt-12 grid grid-cols-4 gap-4 max-w-3xl mx-auto">
+          <div class="text-center">
+            <div class="text-3xl font-bold text-green-400">50+</div>
+            <div class="text-sm text-gray-400">Child Companies</div>
+          </div>
+          <div class="text-center">
+            <div class="text-3xl font-bold text-green-400">10</div>
+            <div class="text-sm text-gray-400">Sectors</div>
+          </div>
+          <div class="text-center">
+            <div class="text-3xl font-bold text-green-400">5</div>
+            <div class="text-sm text-gray-400">Core Team</div>
+          </div>
+          <div class="text-center">
+            <div class="text-3xl font-bold text-green-400">$100M+</div>
+            <div class="text-sm text-gray-400">AUM</div>
+          </div>
+        </div>
+
+        <div class="mt-10 flex flex-wrap justify-center gap-4">
+          <a href="sectors.html"
+            class="bg-green-500 px-8 py-4 rounded-lg text-black font-semibold hover:bg-green-400 transition transform hover:scale-105">
+            Explore Sectors
+          </a>
+          <a href="investors-partners.html"
+            class="border-2 border-green-500 px-8 py-4 rounded-lg hover:bg-green-500 hover:text-black transition transform hover:scale-105">
+            Partner With Us
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED SECTORS PREVIEW -->
+    <section class="py-20 bg-gray-900">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="text-center mb-12">
+          <h2 class="text-4xl md:text-5xl font-bold text-green-400">Our Sectors</h2>
+          <p class="text-gray-400 mt-4 max-w-3xl mx-auto text-lg">
+            We focus on sectors where AI-powered systems and decentralized infrastructure
+            create durable competitive advantage.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4 text-center">
+          <!-- Agriculture -->
+          <div
+            class="bg-gray-800 p-6 rounded-lg border border-gray-700 hover:border-green-400 transition group cursor-pointer">
+            <div class="text-4xl mb-3">🌾</div>
+            <div class="font-semibold text-green-400">Agriculture</div>
+          </div>
+          <!-- Education -->
+          <div
+            class="bg-gray-800 p-6 rounded-lg border border-gray-700 hover:border-green-400 transition group cursor-pointer">
+            <div class="text-4xl mb-3">📚</div>
+            <div class="font-semibold text-green-400">Education</div>
+          </div>
+          <!-- Medical -->
+          <div
+            class="bg-gray-800 p-6 rounded-lg border border-gray-700 hover:border-green-400 transition group cursor-pointer">
+            <div class="text-4xl mb-3">🏥</div>
+            <div class="font-semibold text-green-400">Medical</div>
+          </div>
+          <!-- Fashion -->
+          <div
+            class="bg-gray-800 p-6 rounded-lg border border-gray-700 hover:border-green-400 transition group cursor-pointer">
+            <div class="text-4xl mb-3">👔</div>
+            <div class="font-semibold text-green-400">Fashion</div>
+          </div>
+          <!-- Airlines -->
+          <div
+            class="bg-gray-800 p-6 rounded-lg border border-gray-700 hover:border-green-400 transition group cursor-pointer">
+            <div class="text-4xl mb-3">✈️</div>
+            <div class="font-semibold text-green-400">Airlines</div>
+          </div>
+          <!-- Technology -->
+          <div
+            class="bg-gray-800 p-6 rounded-lg border border-gray-700 hover:border-green-400 transition group cursor-pointer">
+            <div class="text-4xl mb-3">💻</div>
+            <div class="font-semibold text-green-400">Technology</div>
+          </div>
+          <!-- Fintech -->
+          <div
+            class="bg-gray-800 p-6 rounded-lg border border-gray-700 hover:border-green-400 transition group cursor-pointer">
+            <div class="text-4xl mb-3">💰</div>
+            <div class="font-semibold text-green-400">Fintech</div>
+          </div>
+          <!-- Energy -->
+          <div
+            class="bg-gray-800 p-6 rounded-lg border border-gray-700 hover:border-green-400 transition group cursor-pointer">
+            <div class="text-4xl mb-3">⚡</div>
+            <div class="font-semibold text-green-400">Energy</div>
+          </div>
+          <!-- Logistics -->
+          <div
+            class="bg-gray-800 p-6 rounded-lg border border-gray-700 hover:border-green-400 transition group cursor-pointer">
+            <div class="text-4xl mb-3">📦</div>
+            <div class="font-semibold text-green-400">Logistics</div>
+          </div>
+          <!-- Media -->
+          <div
+            class="bg-gray-800 p-6 rounded-lg border border-gray-700 hover:border-green-400 transition group cursor-pointer">
+            <div class="text-4xl mb-3">📺</div>
+            <div class="font-semibold text-green-400">Media</div>
+          </div>
+        </div>
+
+        <div class="text-center mt-10">
+          <a href="sectors.html" class="text-green-400 hover:text-green-300 font-semibold inline-flex items-center">
+            View All Sectors
+            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PORTFOLIO COMPANIES -->
+    <section class="py-20">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="text-center mb-12">
+          <h2 class="text-4xl md:text-5xl font-bold text-green-400">Featured Companies</h2>
+          <p class="text-gray-400 mt-4 max-w-3xl mx-auto">
+            Meet our innovative portfolio companies transforming industries with a dedicated team of 5 core members.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- Growsoft - Software Company -->
+          <div
+            class="bg-gray-900 rounded-xl overflow-hidden border border-gray-800 hover:border-green-400 transition group">
+            <img
+              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+              alt="Growsoft" class="w-full h-48 object-cover group-hover:scale-105 transition duration-300">
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-green-400">Growsoft</h3>
+              <p class="text-gray-400 mt-2">Leading software development company creating innovative AI-powered
+                solutions for businesses worldwide.</p>
+              <div class="mt-4 flex items-center text-sm text-gray-500">
+                <span class="bg-gray-800 px-3 py-1 rounded-full">Software</span>
+                <span class="ml-3">📍 Dhaka</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- FakirAgro - Agriculture Company -->
+          <div
+            class="bg-gray-900 rounded-xl overflow-hidden border border-gray-800 hover:border-green-400 transition group">
+            <img
+              src="https://images.unsplash.com/photo-1592982537447-6f2a6a0c7c5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+              alt="FakirAgro" class="w-full h-48 object-cover group-hover:scale-105 transition duration-300">
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-green-400">FakirAgro</h3>
+              <p class="text-gray-400 mt-2">Revolutionizing agriculture with AI-driven crop optimization and sustainable
+                farming solutions.</p>
+              <div class="mt-4 flex items-center text-sm text-gray-500">
+                <span class="bg-gray-800 px-3 py-1 rounded-full">Agriculture</span>
+                <span class="ml-3">📍 Rural Bangladesh</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Shihab Law - Formula Company -->
+          <div
+            class="bg-gray-900 rounded-xl overflow-hidden border border-gray-800 hover:border-green-400 transition group">
+            <img
+              src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+              alt="Shihab Law" class="w-full h-48 object-cover group-hover:scale-105 transition duration-300">
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-green-400">Shihab Law</h3>
+              <p class="text-gray-400 mt-2">Specialized formula and legal technology company providing innovative
+                solutions for legal professionals.</p>
+              <div class="mt-4 flex items-center text-sm text-gray-500">
+                <span class="bg-gray-800 px-3 py-1 rounded-full">Legal Tech</span>
+                <span class="ml-3">📍 Dhaka</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team Info -->
+        <div class="mt-10 text-center">
+          <div class="inline-block bg-gray-900 border border-green-500 rounded-lg px-6 py-3">
+            <p class="text-green-400 font-semibold">🌟 Powered by a dedicated team of 5 core members</p>
+          </div>
+        </div>
+
+        <div class="text-center mt-8">
+          <a href="child-companies.html"
+            class="inline-flex items-center text-green-400 hover:text-green-300 font-semibold">
+            View All 50+ Companies
+            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- IMPACT STATISTICS -->
+    <section class="py-20 bg-gradient-to-r from-green-900 to-green-700">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="grid md:grid-cols-4 gap-8 text-center">
+          <div>
+            <div class="text-5xl font-bold text-white mb-2">50+</div>
+            <div class="text-green-200">Portfolio Companies</div>
+          </div>
+          <div>
+            <div class="text-5xl font-bold text-white mb-2">10</div>
+            <div class="text-green-200">Industry Sectors</div>
+          </div>
+          <div>
+            <div class="text-5xl font-bold text-white mb-2">5</div>
+            <div class="text-green-200">Core Team Members</div>
+          </div>
+          <div>
+            <div class="text-5xl font-bold text-white mb-2">$250M+</div>
+            <div class="text-green-200">Combined Valuation</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STRATEGIC PARTNERS -->
+    <section class="py-20 bg-gray-900">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="text-center mb-12">
+          <h2 class="text-4xl md:text-5xl font-bold text-green-400">Strategic Partners</h2>
+          <p class="text-gray-400 mt-4">
+            Built with strategic capital and deep operating alliances.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-6 gap-6 text-center">
+          <!-- Partner 1 -->
+          <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 hover:border-green-400 transition">
+            <div class="font-bold text-green-400 text-2xl">TC</div>
+            <div class="text-gray-400 text-sm mt-2">TechCorp</div>
+          </div>
+          <!-- Partner 2 -->
+          <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 hover:border-green-400 transition">
+            <div class="font-bold text-green-400 text-2xl">IF</div>
+            <div class="text-gray-400 text-sm mt-2">InnovateFund</div>
+          </div>
+          <!-- Partner 3 -->
+          <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 hover:border-green-400 transition">
+            <div class="font-bold text-green-400 text-2xl">GT</div>
+            <div class="text-gray-400 text-sm mt-2">GlobalTech</div>
+          </div>
+          <!-- Partner 4 -->
+          <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 hover:border-green-400 transition">
+            <div class="font-bold text-green-400 text-2xl">AS</div>
+            <div class="text-gray-400 text-sm mt-2">AeroSystems</div>
+          </div>
+          <!-- Partner 5 -->
+          <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 hover:border-green-400 transition">
+            <div class="font-bold text-green-400 text-2xl">MC</div>
+            <div class="text-gray-400 text-sm mt-2">MediCore</div>
+          </div>
+          <!-- Partner 6 -->
+          <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 hover:border-green-400 transition">
+            <div class="font-bold text-green-400 text-2xl">FB</div>
+            <div class="text-gray-400 text-sm mt-2">FinBridge</div>
+          </div>
+        </div>
+
+        <div class="text-center mt-10">
+          <a href="investors-partners.html"
+            class="bg-green-500 px-8 py-3 rounded-lg text-black font-semibold hover:bg-green-400 transition">
+            View All Partners
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="py-20">
+      <div class="max-w-4xl mx-auto px-6 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold mb-6">Ready to Build the Future?</h2>
+        <p class="text-xl text-gray-400 mb-8">
+          Whether you're a founder with a vision or an investor looking for opportunities,
+          we'd love to hear from you.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <a href="contact.html"
+            class="bg-green-500 px-8 py-4 rounded-lg text-black font-semibold hover:bg-green-400 transition transform hover:scale-105">
+            Start a Conversation
+          </a>
+          <a href="investors-partners.html"
+            class="border-2 border-green-500 px-8 py-4 rounded-lg hover:bg-green-500 hover:text-black transition transform hover:scale-105">
+            Become a Partner
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-black py-12">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid md:grid-cols-4 gap-8 mb-8">
+        <div>
+          <h3 class="text-2xl font-bold text-green-400 mb-4">Fakir Ventures</h3>
+          <p class="text-gray-400">Building the future with AI & Agriculture since 2020.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold text-white mb-4">Quick Links</h4>
+          <ul class="space-y-2 text-gray-400">
+            <li><a href="about.html" class="hover:text-green-400">About Us</a></li>
+            <li><a href="child-companies.html" class="hover:text-green-400">Portfolio</a></li>
+            <li><a href="sectors.html" class="hover:text-green-400">Sectors</a></li>
+            <li><a href="contact.html" class="hover:text-green-400">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold text-white mb-4">Legal</h4>
+          <ul class="space-y-2 text-gray-400">
+            <li><a href="#" class="hover:text-green-400">Privacy Policy</a></li>
+            <li><a href="#" class="hover:text-green-400">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold text-white mb-4">Follow Us</h4>
+          <div class="flex space-x-4">
+            <a href="#" class="text-gray-400 hover:text-green-400">LinkedIn</a>
+            <a href="#" class="text-gray-400 hover:text-green-400">Twitter</a>
+          </div>
+        </div>
+      </div>
+      <div class="border-t border-gray-800 pt-8 text-center text-gray-500 text-sm">
+        © 2026 Fakir Ventures. All rights reserved.
+      </div>
     </div>
-    <!-- End Cursor Pointer -->
+  </footer>
 
-    <!-- Header Top Start -->
-    <div class="header-top-section d-lg-block d-none bg-color3 py-2">
-        <div class="container">
-            <div class="sub-header-wrapper d-flex align-items-center justify-content-between">
-                <a href="#" class="d-flex align-items-center gap-2 white fs-eight">
-                    <i class="fa-regular fa-clock"></i> Monday - Friday : 8:30 AM to 6:30 PM
-                </a>
-                <div class="right-top-cont d-flex align-items-center gap-5">
-                    <!-- <div class="d-flex align-items-center gap-2">
-                        <i class="fa-solid fa-globe white"></i>
-                        <select name="language">
-                            <option value="1">English</option>
-                            <option value="2">Hindi</option>
-                            <option value="3">Spanish</option>
-                            <option value="4">Bangla</option>
-                        </select>
-                    </div> -->
-                    <div class="line"></div>
-                    <div class="social-custom d-flex align-items-center gap-xl-3 gap-3">
-                        <a href="#" class=" black"><i class="fab fa-facebook-f white65 fs-six"></i></a>
-                        <a href="#" class=" black"><i class="fa-brands fa-twitter white65 fs-six"></i></a>
-                        <a href="#" class=" black"><i class="fa-brands fa-linkedin-in white65 fs-six"></i></a>
-                        <a href="#" class=" black"><i class="fa-brands fa-instagram white65 fs-six"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Header Top End -->
-
-    <!-- Offcanvas Area Start -->
-    <div class="fix-area">
-        <div class="offcanvas__info">
-            <div class="offcanvas__wrapper">
-                <div class="offcanvas__content">
-                    <div class="offcanvas__top mb-4 d-flex justify-content-between align-items-center">
-                        <div class="offcanvas__logo">
-                            <a href="index.html">
-                                <!-- <img src="assets/img/logo/logo.png" alt="logo-img"> -->
-                                <h2 class="mb-0 fw-bold p1-clr">Fakir Ventures</h2>
-                            </a>
-                        </div>
-                        <div class="offcanvas__close">
-                            <button>
-                                <i class="fas fa-times"></i>
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="mobile-menu fix mb-3"></div>
-                    <div class="offcanvas__contact">
-                        <h4 class="n900-clr">Contact Info</h4>
-                        <ul class="d-grid gap-2 mb-5">
-                            <li class="d-flex align-items-center">
-                                <div class="offcanvas__contact-icon">
-                                    <i class="fal fa-map-marker-alt"></i>
-                                </div>
-                                <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Fakir Bari, Uttar Baherchar, Babugonj, Barishal</a>
-                                </div>
-                            </li>
-                            <li class="d-flex align-items-center">
-                                <div class="offcanvas__contact-icon mr-15">
-                                    <i class="fal fa-envelope"></i>
-                                </div>
-                                <div class="offcanvas__contact-text">
-                                    <a href="mailto:info@example.com"><span
-                                            class="mailto:info@example.com">fakirventures@gmail.com</span></a>
-                                </div>
-                            </li>
-                            <li class="d-flex align-items-center">
-                                <div class="offcanvas__contact-icon mr-15">
-                                    <i class="fal fa-clock"></i>
-                                </div>
-                                <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Sun-friday, 02am -09pm</a>
-                                </div>
-                            </li>
-                            <li class="d-flex align-items-center">
-                                <div class="offcanvas__contact-icon mr-15">
-                                    <i class="far fa-phone"></i>
-                                </div>
-                                <div class="offcanvas__contact-text">
-                                    <a href="tel:+11002345909">(+880) 1603-747235</a>
-                                </div>
-                            </li>
-                        </ul>
-                        <div class="header-button mt-4">
-                            <a href="contact.html" class="theme-btn p2-bg text-center">
-                                <span>
-                                    Get A Quote
-                                    <span class="ani-arrow">
-                                        <i class="fa-solid fa-arrow-right-long"></i>
-                                    </span>
-                                </span>
-                            </a>
-                        </div>
-                        <div class="social-icon d-flex align-items-center">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="offcanvas__overlay"></div>
-
-    <!-- Header Section Start -->
-    <header id="header-sticky" class="header-1 w-100">
-        <div class="container">
-            <div class="mega-menu-wrapper">
-                <div class="header-main">
-                    <div class="header-left">
-                        <div class="logo">
-                            <a href="index.html" class="header-logo">
-                                <!-- <img src="assets/img/logo/logo.png" alt="logo-img"> -->
-                                <h3 class="mb-0 fw-bold p1-clr">Fakir Venture</h3>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="header-right d-flex justify-content-end align-items-center">
-                        <div class="mean__menu-wrapper">
-                            <div class="main-menu">
-                                <nav id="mobile-menu">
-                                    <ul>
-                                        <li class="active menu-thumb">
-                                            <a href="index.html">
-                                                Home
-                                             
-                                            </a>
-                                           
-                                        </li>
-                                        <li>
-                                            <a href="about.html">About Us</a>
-                                        </li>
-                                        <li>
-                                            <a href="childcompany.html">Child Company</a>
-                                        </li>
-                                        
-                                        <!-- <li>
-                                            <a href="services.html">
-                                                Services
-                                                <i class="fas fa-angle-down"></i>
-                                            </a>
-                                            <ul class="submenu">
-                                                <li><a href="services.html">Service</a></li>
-                                                <li><a href="services-details.html">Service Details</a></li>
-                                            </ul>
-                                        </li> -->
-
-                                        <!-- <li>
-                                            <a href="blog.html">
-                                                Blog
-                                                <i class="fas fa-angle-down"></i>
-                                            </a>
-                                            <ul class="submenu">
-                                                <li><a href="blog.html">Blog</a></li>
-                                                <li><a href="blog-sidebar.html">Blog Sidebar</a></li>
-                                                <li><a href="blog-details.html">Blog Details</a></li>
-                                            </ul>
-                                        </li> -->
-                                        <li class="has-dropdown">
-                                            <a href="#0">
-                                                Pages
-                                                <i class="fas fa-angle-down"></i>
-                                            </a>
-                                            <ul class="submenu">
-                                                <li><a href="team.html">Team</a></li>
-                                                <li><a href="team-details.html">Team Details</a></li>
-                                                <li><a href="testimonials.html">Testimonial</a></li>
-                                                <li><a href="faqs.html">Faqs</a></li>
-                                                <li><a href="pricing-plan.html">Pricing Plan</a></li>
-                                                <li><a href="portfolio.html">Portfolio</a></li>
-                                                <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                                                <li><a href="error.html">Error 404</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="contact.html">
-                                                Contact
-                                            </a>
-                                        </li>
-
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                        <a href="#0" class="search-trigger search-icon d-xl-none d-block">
-                            <i class="fa-solid fa-magnifying-glass black"></i>
-                        </a>
-                        <div class="header__hamburger d-xl-none d-block my-auto">
-                            <div class="sidebar__toggle">
-                                <img src="assets/img/icon/menu.png" alt="icon">
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="header-hamburger-inner d-xl-flex gap-xxl-4 gap-xl-3 align-items-center d-none">
-                        <a href="#0" class="search-trigger search-icon d-xl-block d-none fs-five">
-                            <i class="fa-solid fa-magnifying-glass black"></i>
-                        </a>
-                        <a href="contact.html"
-                            class="common-btn box-style cmn-style1 d-inline-flex justify-content-center align-items-center gap-xxl-2 gap-2 fs18 fw-semibold white overflow-hidden rounded-5 p3-bg">
-                            Get Started
-                        </a>
-                        <div class="header__hamburger my-auto d-xl-none d-block">
-                            <div class="sidebar__toggle">
-                                <img src="assets/img/icon/menu.png" alt="icon">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- Banner Section Start -->
-    <section class="banner-section-wrap style3 swiper">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <div class="banner-bg-slide">
-                    <div class="container">
-                        <div class="banner-content text-center">
-                            <span class="hero-badge3 mb-xxl-4 mb-4 d-block white fs-seven fw_600 text-uppercase">
-                                How to Create a Successful AgriTech Strategy
-                            </span>
-                            <h1 class="white mb-md-4 mb-3 pb-lg-2 d-block">
-                                We offer a wide range of AgriTech solutions.
-                            </h1>
-                            <div class="d-flex justify-content-center align-items-center gap-sm-3 gap-1">
-                                <div class="">
-                                    <a href="about.html"
-                                        class="common-btn box-style cmn-style1 box-bg w-100 white d-inline-flex justify-content-center align-items-center gap-xxl-2 gap-2 overflow-hidden rounded-5">
-                                        Discover More
-                                    </a>
-                                </div>
-                                <div class="">
-                                    <a href="contact.html"
-                                        class="common-btn box-style cmn-style1 w-100 white d-inline-flex justify-content-center align-items-center gap-xxl-2 gap-2 overflow-hidden bg-transparent rounded-5 n0-border">
-                                        Contact With Us
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Ele -->
-                    <!-- <img src="assets/img/element/banner3-ele2.html" alt="img" class="hero-ele1 d-sm-block d-none">
-                    <img src="assets/img/element/banner3-ele1.html" alt="img" class="hero-ele2"> -->
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="banner-bg-slide style2">
-                    <div class="container">
-                        <div class="banner-content text-center">
-                            <span class="hero-badge3 mb-xxl-4 mb-4 d-block white fs-seven fw_600 text-uppercase">
-                                How to Create a Successful IT Strategy
-                            </span>
-                            <h1 class="white mb-md-4 mb-3 pb-lg-2 d-block">
-                                We offer a wide range of IT solutions.
-                            </h1>
-                            <div class="d-flex justify-content-center align-items-center gap-sm-3 gap-1">
-                                <div class="">
-                                    <a href="about.html"
-                                        class="common-btn box-style cmn-style1 box-bg w-100 white d-inline-flex justify-content-center align-items-center gap-xxl-2 gap-2 overflow-hidden rounded-5">
-                                        Discover More
-                                    </a>
-                                </div>
-                                <div class="">
-                                    <a href="contact.html"
-                                        class="common-btn box-style cmn-style1 w-100 white d-inline-flex justify-content-center align-items-center gap-xxl-2 gap-2 overflow-hidden bg-transparent rounded-5 n0-border">
-                                        Contact With Us
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Ele -->
-                    <img src="assets/img/element/banner3-ele2.html" alt="img" class="hero-ele1 d-sm-block d-none">
-                    <img src="assets/img/element/banner3-ele1.html" alt="img" class="hero-ele2">
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="banner-bg-slide style3">
-                    <div class="container">
-                        <div class="banner-content text-center">
-                            <span class="hero-badge3 mb-xxl-4 mb-4 d-block white fs-seven fw_600 text-uppercase">
-                                How to Create a Successful IT Strategy
-                            </span>
-                            <h1 class="white mb-md-4 mb-3 pb-lg-2 d-block">
-                                We offer a wide range of IT solutions.
-                            </h1>
-                            <div class="d-flex justify-content-center align-items-center gap-sm-3 gap-1">
-                                <div class="">
-                                    <a href="about.html"
-                                        class="common-btn box-style cmn-style1 box-bg w-100 white d-inline-flex justify-content-center align-items-center gap-xxl-2 gap-2 overflow-hidden rounded-5">
-                                        Discover More
-                                    </a>
-                                </div>
-                                <div class="">
-                                    <a href="contact.html"
-                                        class="common-btn box-style cmn-style1 w-100 white d-inline-flex justify-content-center align-items-center gap-xxl-2 gap-2 overflow-hidden bg-transparent rounded-5 n0-border">
-                                        Contact With Us
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Ele -->
-                    <img src="assets/img/element/banner3-ele2.html" alt="img" class="hero-ele1 d-sm-block d-none">
-                    <img src="assets/img/element/banner3-ele1.html" alt="img" class="hero-ele2">
-                </div>
-            </div>
-        </div>
-        <div class="swiper-pagination"></div>
-    </section>
-    <!-- Banner Section Start -->
-
-    <!-- About Section Start -->
-    <section class="about-section fix">
-        <div class="about-wrapper section-padding">
-            <div class="container">
-                <div
-                    class="row flex-row-reverse justify-content-lg-between justify-content-center g-4 align-items-center">
-                    <div class="col-xl-5 col-lg-7">
-                        <div class="about-content">
-                            <div class="section-title text-lg-start text-center mb-4">
-                                <span class="sub-badge p1-clr fw-semibold fs-seven text-uppercase d-block mb-3">
-                                    KNOW ABOUT OUR Fakir Ventures
-                                </span>
-                                <h2 class="mb-xxl-4 mb-3 wow fadeInUp black fw-bold visible-slowly-right"
-                                    data-wow-delay=".3s">
-                                    Highly tailored IT design & ideas
-                                </h2>
-                                <p class="pra fs-seven">
-                                    Whether it's on a website, an app, a search engine, this simple
-                                    can evoke a mix of emotions from confusion to exasper
-                                    But fear not, for in these moments, there are
-                                </p>
-                            </div>
-                            <div
-                                class="about-information d-grid justify-content-lg-start justify-content-center  gap-xl-3 gap-3 white-bg">
-                                <div class="about-info d-flex align-items-start gap-lg-3 gap-2">
-                                    <div class="icon d-center white-bg">
-                                        <svg width="18" height="22" viewBox="0 0 18 22" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M9.00172 21.7501C8.40172 21.7501 7.81172 21.6101 7.33172 21.3401L2.60172 18.6101C0.641719 17.2901 0.511719 17.0501 0.511719 14.9801V10.0201C0.511719 7.95006 0.641719 7.71006 2.56172 6.42006L7.34172 3.66006C8.29172 3.11006 9.72172 3.11006 10.6717 3.66006L15.4017 6.39006C17.3617 7.71006 17.4917 7.95006 17.4917 10.0201V14.9801C17.4917 17.0501 17.3617 17.2901 15.4417 18.5801L10.6617 21.3401C10.1917 21.6201 9.59172 21.7501 9.00172 21.7501ZM9.00172 4.75006C8.66172 4.75006 8.32172 4.82006 8.08172 4.96006L3.35172 7.69006C2.01172 8.60006 2.01172 8.60006 2.01172 10.0201V14.9801C2.01172 16.4001 2.01172 16.4001 3.40172 17.3401L8.09172 20.0401C8.57172 20.3201 9.44172 20.3201 9.92172 20.0401L14.6517 17.3101C15.9917 16.4001 15.9917 16.4001 15.9917 14.9801V10.0201C15.9917 8.60006 15.9917 8.60006 14.6017 7.66006L9.91172 4.96006C9.68172 4.82006 9.34172 4.75006 9.00172 4.75006Z"
-                                                fill="#5135FF" />
-                                            <path
-                                                d="M14.5 7.38C14.09 7.38 13.75 7.04 13.75 6.63V4C13.75 2.42 13.08 1.75 11.5 1.75H6.5C4.92 1.75 4.25 2.42 4.25 4V6.56C4.25 6.97 3.91 7.31 3.5 7.31C3.09 7.31 2.75 6.98 2.75 6.56V4C2.75 1.58 4.08 0.25 6.5 0.25H11.5C13.92 0.25 15.25 1.58 15.25 4V6.63C15.25 7.04 14.91 7.38 14.5 7.38Z"
-                                                fill="#5135FF" />
-                                            <path
-                                                d="M10.6283 16.6301C10.4183 16.6301 10.1983 16.5901 9.97828 16.5001L8.99828 16.1201L8.01828 16.5101C7.48828 16.7201 6.94828 16.6701 6.54828 16.3801C6.14828 16.0901 5.93828 15.5901 5.96828 15.0201L6.02828 13.9701L5.35828 13.1601C4.99828 12.7101 4.87828 12.1901 5.03828 11.7101C5.18828 11.2401 5.59828 10.8801 6.14828 10.7401L7.16828 10.4801L7.73828 9.59012C8.34828 8.63012 9.65828 8.63012 10.2683 9.59012L10.8383 10.4801L11.8583 10.7401C12.4083 10.8801 12.8183 11.2401 12.9683 11.7101C13.1183 12.1801 12.9983 12.7101 12.6383 13.1501L11.9683 13.9601L12.0283 15.0101C12.0583 15.5801 11.8483 16.0701 11.4483 16.3701C11.2083 16.5401 10.9283 16.6301 10.6283 16.6301ZM6.51828 12.2001L7.18828 13.0101C7.41828 13.2801 7.54828 13.7101 7.52828 14.0601L7.46828 15.1101L8.44828 14.7201C8.77828 14.5901 9.21828 14.5901 9.54828 14.7201L10.5283 15.1101L10.4683 14.0601C10.4483 13.7101 10.5783 13.2901 10.8083 13.0101L11.4783 12.2001L10.4583 11.9401C10.1183 11.8501 9.75828 11.5901 9.56828 11.3001L9.00828 10.4201L8.43828 11.3001C8.24828 11.6001 7.88828 11.8601 7.54828 11.9501L6.51828 12.2001Z"
-                                                fill="#5135FF" />
-                                        </svg>
-                                    </div>
-                                    <div class="cont">
-                                        <h4 class="black fs-six mb-1 fw-bold">Leadership on technology</h4>
-                                        <p class="fs-seven pra">
-                                            Fully committed to the success company emotions from confusion to exasper
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <ul class="about-list d-grid justify-content-center justify-content-lg-start gap-1">
-                                <li class="d-flex align-items-center gap-2">
-                                    <span class="icon d-center"><i class="fa-solid fa-check p1-clr fs-eight"></i></span>
-                                    <p class="fw-semibold black">Auctor aliquet aenean simply free text veritatis
-                                        quis</p>
-                                </li>
-                                <li class="d-flex align-items-center gap-2">
-                                    <span class="icon d-center"><i class="fa-solid fa-check p1-clr fs-eight"></i></span>
-                                    <p class="fw-semibold black">Auctor aliquet aenean simply free text veritatis
-                                        quis</p>
-                                </li>
-                            </ul>
-                            <div
-                                class="d-flex flex-sm-nowrap flex-wrap justify-content-lg-start justify-content-center align-items-center gap-xxl-4 gap-xl-3 gap-2">
-                                <div class="">
-                                    <a href="about.html"
-                                        class="common-btn box-style cmn-style1 box-bg w-100 white d-inline-flex justify-content-center align-items-center gap-xxl-2 gap-2 overflow-hidden rounded-5">
-                                        Discover More
-                                    </a>
-                                </div>
-                                <div class="about-call d-flex align-items-center gap-3">
-                                    <div class="icon bg-color d-center rounded-circle">
-                                        <i class="fa-solid fa-phone-volume fs-six p1-clr"></i>
-                                    </div>
-                                    <div class="cont">
-                                        <span class="fs-seven pra d-block">Call us free</span>
-                                        <a href="#0" class="fs-six black fw-semibold">
-                                            01603747235
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-5">
-                        <div class="about-thumb position-relative reveal-left w-100">
-                            <img src="assets/img/about/about1.png" alt="img" class="w-100">
-                            <!-- Ele -->
-                            <img src="assets/img/element/dot-grp1.png" alt="img" class="about-ele">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-
-
-    <!-- Business  -->
-    <section class="business-section fix section-padding">
-        <div class="container">
-            <div class="section-title text-center mb-lg-4 mb-0 pb-lg-2">
-                <h2 class="wow fadeInUp black fw-bold visible-slowly-right" data-wow-delay=".3s">
-                    Why we are different from others
-                </h2>
-            </div>
-            <div class="row g-4 justify-content-between">
-                <div class="col-lg-5 order-lg-0 order-1">
-                    <div class="business-thumbnail position-relative">
-                        <img src="assets/img/about/business-thumb.png" alt="img" class="mimg">
-                        <!-- Business -->
-                        <img src="assets/img/element/line-card.png" alt="img" class="line-card">
-                        <img src="assets/img/element/box-card.png" alt="img" class="box-card">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="business-content text-lg-start text-center">
-                        <p class="pra border-bottom pb-xxl-5 pb-4 mb-xxl-5 mb-4">
-                            Applies deep technological expertise in machine learning and artificial
-                            intelligence development services to help clients deliver personalization
-                            and customer convenience at scale. Find out More
-                        </p>
-                    </div>
-                    <div class="row g-xxl-4 g-md-3 g-4">
-                        <div class="col-sm-6">
-                            <div class="business-items">
-                                <img src="assets/img/icon/business-icon1.html" alt="img" class="mb-4">
-                                <h5 class="black mb-md-3 mb-2">
-                                    <a href="services-details.html" class="black">End to end development</a>
-                                </h5>
-                                <p class="pra fs-seven">
-                                    Your time is precious, and we that cleaning is really just one more
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="business-items">
-                                <img src="assets/img/icon/business-icon2.html" alt="img" class="mb-4">
-                                <h5 class="black mb-md-3 mb-2">
-                                    <a href="services-details.html" class="black">Technology source</a>
-                                </h5>
-                                <p class="pra fs-seven">
-                                    Your time is precious, and we that cleaning is really just one more
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="business-items">
-                                <img src="assets/img/icon/business-icon3.html" alt="img" class="mb-4">
-                                <h5 class="black mb-md-3 mb-2">
-                                    <a href="services-details.html" class="black">Information manage</a>
-                                </h5>
-                                <p class="pra fs-seven">
-                                    Your time is precious, and we that cleaning is really just one more
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="business-items">
-                                <img src="assets/img/icon/business-icon4.html" alt="img" class="mb-4">
-                                <h5 class="black mb-md-3 mb-2">
-                                    <a href="services-details.html" class="black">Network business</a>
-                                </h5>
-                                <p class="pra fs-seven">
-                                    Your time is precious, and we that cleaning is really just one more
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Consulting -->
-    <section class="consulting-section fix pt-5 pb-5">
-        <div class="container">
-            <div
-                class="consulting-wrapper text-md-start text-center d-md-flex d-grid gap-4 align-items-center flex-md-nowrap flex-wrap justify-content-md-between justify-content-center">
-                <div
-                    class="d-md-flex d-grid align-items-center gap-md-5 gap-3 justify-content-center justify-content-md-start">
-                    <div
-                        class="customer-review d-flex justify-content-center justify-content-md-start align-items-center">
-                        <img src="assets/img/testimonial/customer1.png" alt="img" class="rounded-circle review-img">
-                        <img src="assets/img/testimonial/customer2.png" alt="img" class="rounded-circle review-img">
-                        <span class="plus review-img d-center rounded-circle whitebg">
-                            <i class="fa-solid fa-plus"></i>
-                        </span>
-                    </div>
-                    <h4 class="white fw-bold">
-                        Need any types of technology <br>
-                        consulting help
-                    </h4>
-                </div>
-                <div class="con-btn">
-                    <a href="contact.html"
-                        class="common-btn box-style cmn-style1 d-inline-flex justify-content-center align-items-center gap-xxl-2 gap-2 fs18 fw-semibold black overflow-hidden rounded-5 whitebg">
-                        Contact Us
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-        <!-- Faq Section Start -->
-    <section class="faq-section space-top fix">
-        <div class="container">
-            <div class="row g-4 justify-content-between">
-                <div class="col-lg-6">
-                    <div class="section-title pe-xxl-5 mb-lg-5 mb-4">
-                        <h6 class="sub-badge4 p1-clr fw-bold fs-seven text-uppercase d-block mb-xl-3 mb-2">
-                            OUR QUESTIONS AND ANSWER
-                        </h6>
-                        <h2 class="wow fadeInUp black fw-bold visible-slowly-right" data-wow-delay=".3s">
-                            Things you need to
-                            know about us
-                        </h2>
-                    </div>
-                    <div class="faq-stresh d-flex align-items-center">
-                        <img src="assets/img/faq/faq-customer.png" alt="img" class="img rounded-circle">
-                        <div class="about-call d-flex align-items-center gap-3">
-                            <div class="icon p3-bg d-center rounded-circle">
-                                <i class="fa-solid fa-phone-volume fs-six white"></i>
-                            </div>
-                            <div class="cont">
-                                <span class="fs-seven pra d-block">Call us free</span>
-                                <a href="#0" class="fs-six black fw-semibold">
-                                    019 25648 62598
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="accordion border-0 d-flex flex-column gap-xxl-4 gap-3" id="accordionExample">
-                        <div class="accordion-item active">
-                            <div class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    How does it generate make responses?
-                                </button>
-                                <div id="collapseOne" class="accordion-collapse collapse show"
-                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <p class="fs-seven pra">
-                                            Our tools are easy to use and affordable, so you can start improving your
-                                            website's SEO today.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <div class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Do I get all the demos and templates with?
-                                </button>
-                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <p>
-                                            Our tools are easy to use and affordable, so you can start improving your
-                                            website's SEO today.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <div class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    How do you find different criteria in your process?
-                                </button>
-                                <div id="collapseThree" class="accordion-collapse collapse"
-                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <p>
-                                            Our tools are easy to use and affordable, so you can start improving your
-                                            website's SEO today.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <div class="accordion-header" id="headingfour">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
-                                    What do I need to apply for an account?
-                                </button>
-                                <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <p>
-                                            Our tools are easy to use and affordable, so you can start improving your
-                                            website's SEO today.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Team Section Start -->
-    <section class="team-section fix section-padding">
-        <div class="container">
-            <div class="row justify-content-center mb-lg-5 mb-sm-5 mb-4 pb-lg-1">
-                <div class="col-lg-7">
-                    <div class="section-title text-center">
-                        <span class="sub-badge p1-clr fw-semibold fs-seven text-uppercase d-block mb-3">WHAT WE SOLVED
-                            OUR TEAM MEMBERS
-                        </span>
-                        <h2 class="wow fadeInUp black fw-bold visible-slowly-right" data-wow-delay=".3s">
-                            Meet with our experienced
-                            team members
-                        </h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center g-sm-6 g-4">
-                <div class="col-md-6 col-lg-6 col-xl-4">
-                    <div class="team-items wow fadeInUp" data-wow-delay=".4s">
-                        <div class="thumb position-relative w-100 mb-lg-4 mb-3">
-                            <img src="assets/img/team/member1.png" alt="img" class="w-100">
-                            <div class="plus-icon">
-                                <div class="icons p1-bg d-center">
-                                    <i class="fa-solid fa-plus white"></i>
-                                </div>
-                                <div class="social-wrapper d-grid flex-wrap align-items-center gap-xxl-1 gap-1">
-                                    <a href="#" class="rounded-circle whitebg">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                    <a href="#" class="rounded-circle whitebg">
-                                        <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M10.3881 7.49266L16.3338 0.825195H14.9249L9.76215 6.61446L5.63871 0.825195H0.882812L7.11826 9.57959L0.882812 16.5715H2.29185L7.7438 10.4578L12.0985 16.5715H16.8544L10.3877 7.49266H10.3881ZM8.45818 9.65672L7.8264 8.78498L2.79954 1.84844H4.96374L9.02047 7.44645L9.65225 8.31819L14.9255 15.5947H12.7613L8.45818 9.65705V9.65672Z"
-                                                fill="black" />
-                                        </svg>
-                                    </a>
-                                    <a href="#" class="rounded-circle whitebg">
-                                        <i class="fa-brands fa-linkedin-in"></i>
-                                    </a>
-                                    <a href="#" class="rounded-circle whitebg">
-                                        <i class="fa-brands fa-pinterest-p"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="content">
-                            <h4 class="black mb-1"><a href="team-details.html" class="black">Darrell Steward</a></h4>
-                            <span class="fs-seven fw-medium">Ui/Ux Designer</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-4">
-                    <div class="team-items wow fadeInUp" data-wow-delay=".4s">
-                        <div class="thumb position-relative w-100 mb-lg-4 mb-3">
-                            <img src="assets/img/team/member2.png" alt="img" class="w-100">
-                            <div class="plus-icon">
-                                <div class="icons p1-bg d-center">
-                                    <i class="fa-solid fa-plus white"></i>
-                                </div>
-                                <div class="social-wrapper d-grid flex-wrap align-items-center gap-xxl-1 gap-1">
-                                    <a href="#" class="rounded-circle whitebg">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                    <a href="#" class="rounded-circle whitebg">
-                                        <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M10.3881 7.49266L16.3338 0.825195H14.9249L9.76215 6.61446L5.63871 0.825195H0.882812L7.11826 9.57959L0.882812 16.5715H2.29185L7.7438 10.4578L12.0985 16.5715H16.8544L10.3877 7.49266H10.3881ZM8.45818 9.65672L7.8264 8.78498L2.79954 1.84844H4.96374L9.02047 7.44645L9.65225 8.31819L14.9255 15.5947H12.7613L8.45818 9.65705V9.65672Z"
-                                                fill="black" />
-                                        </svg>
-                                    </a>
-                                    <a href="#" class="rounded-circle whitebg">
-                                        <i class="fa-brands fa-linkedin-in"></i>
-                                    </a>
-                                    <a href="#" class="rounded-circle whitebg">
-                                        <i class="fa-brands fa-pinterest-p"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="content">
-                            <h4 class="black mb-1"><a href="team-details.html" class="black">Harshil Achayra</a></h4>
-                            <span class="fs-seven fw-medium">Engineer</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-4">
-                    <div class="team-items wow fadeInUp" data-wow-delay=".4s">
-                        <div class="thumb position-relative w-100 mb-lg-4 mb-3">
-                            <img src="assets/img/team/member3.png" alt="img" class="w-100">
-                            <div class="plus-icon">
-                                <div class="icons p1-bg d-center">
-                                    <i class="fa-solid fa-plus white"></i>
-                                </div>
-                                <div class="social-wrapper d-grid flex-wrap align-items-center gap-xxl-1 gap-1">
-                                    <a href="#" class="rounded-circle whitebg">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                    <a href="#" class="rounded-circle whitebg">
-                                        <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M10.3881 7.49266L16.3338 0.825195H14.9249L9.76215 6.61446L5.63871 0.825195H0.882812L7.11826 9.57959L0.882812 16.5715H2.29185L7.7438 10.4578L12.0985 16.5715H16.8544L10.3877 7.49266H10.3881ZM8.45818 9.65672L7.8264 8.78498L2.79954 1.84844H4.96374L9.02047 7.44645L9.65225 8.31819L14.9255 15.5947H12.7613L8.45818 9.65705V9.65672Z"
-                                                fill="black" />
-                                        </svg>
-                                    </a>
-                                    <a href="#" class="rounded-circle whitebg">
-                                        <i class="fa-brands fa-linkedin-in"></i>
-                                    </a>
-                                    <a href="#" class="rounded-circle whitebg">
-                                        <i class="fa-brands fa-pinterest-p"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="content">
-                            <h4 class="black mb-1"><a href="team-details.html" class="black">Nisha Gurain</a></h4>
-                            <span class="fs-seven fw-medium">Mechanic</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Counter Section Start -->
-    <section class="custom-counter-section space-bottom fix">
-        <div class="container">
-            <div class="counter-area1">
-                <div class="counter-items d-md-flex d-grid align-items-center gap-3">
-                    <div class="content d-flex align-items-center gap-0">
-                        <span class="count">20</span>
-                        <span>+</span>
-                    </div>
-                    <p class="fs-six pra">
-                        Winning awards
-                        on solar
-                    </p>
-                </div>
-                <div class="counter-items d-md-flex d-grid align-items-center gap-3">
-                    <div class="content d-flex align-items-center gap-0">
-                        <span class="count">35</span>
-                        <span>K</span>
-                    </div>
-                    <p class="fs-six pra">
-                        We have completed
-                        projects
-                    </p>
-                </div>
-                <div class="counter-items d-md-flex d-grid align-items-center gap-3">
-                    <div class="content d-flex align-items-center gap-0">
-                        <span class="count">98</span>
-                        <span>%</span>
-                    </div>
-                    <p class="fs-six pra">
-                        Genuine positive
-                        feedback
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Counter Section Start -->
-
-    <!-- Watch Full Section Start -->
-    <section class="watch-full-section position-relative fix">
-        <div class="container">
-            <div class="watch-full-content">
-                <a href="https://www.youtube.com/watch?v=lMJImKo-eZU"
-                    class="portfolio-video rounded-circle d-center video-popup">
-                    <i class="fa-solid fa-play"></i>
-                </a>
-                <h2 class="text-center white">
-                    We make the creative solutions
-                    for IT business!
-                </h2>
-            </div>
-        </div>
-        <!-- Ele -->
-        <img src="assets/img/element/watch-ele.png" alt="img" class="position-absolute end-0 bottom-0 watch-custom-ele">
-    </section>
-    <!-- Watch Full Section end -->
-
-
-    <!-- News Section Start -->
-    <section class="news-section section-padding fix">
-        <div class="container">
-            <div class="section-title-area align-items-end mb-60">
-                <div class="section-title">
-                    <span class="sub-badge p1-clr fw-semibold fs-seven text-uppercase d-block mb-2">OUR LATEST BLOG
-                        POST</span>
-                    <h2 class="wow fadeInUp black fw-bold visible-slowly-right" data-wow-delay=".3s">
-                        Our interesting articles
-                    </h2>
-                </div>
-                <a href="blog.html"
-                    class="common-btn heading-font box-style d-inline-flex justify-content-center align-items-center gap-xxl-2 gap-2 fs18 fw-semibold black overflow-hidden bg-white border rounded100">
-                    View All Post
-                </a>
-            </div>
-            <div class="news-wrapper">
-                <div class="row justify-content-center g-4">
-                    <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="news-single-items rounded-3 p-xxl-2 p-1 border overflow-hidden style1">
-                            <a href="blog-details.html"
-                                class="news-image position-relative d-block rounded-3 overflow-hidden">
-                                <img src="assets/img/blog/blog-grid1.png" alt="news-img"
-                                    class="rounded-3 overflow-hidden">
-                                <span
-                                    class="m-lg-3 m-sm-2 m-1 trns blog-badge1 position-absolute top-0 start-0 z-1 fw_500 bg-white d-inline-block py-xl-2 py-1 px-3 rounded-5 text-uppercase fs-eight black">TECHNOLOGY</span>
-                            </a>
-                            <div class="news-content">
-                                <h4 class="mb-xxl-4 mb-3 pb-xxl-1">
-                                    <a href="blog-details.html" class="black visible-slowly-right">
-                                        The highly creative workflow
-                                        from a silicon valley
-                                    </a>
-                                </h4>
-                                <div class="d-flex align-items-center justify-content-between">
-                                    <div class="author d-flex align-items-center gap-2">
-                                        <img src="assets/img/blog/blog-author1.png" alt="img"
-                                            class="rounded-circle author-img">
-                                        <span class="fs-seven fw_500 black">Vanman Paul</span>
-                                    </div>
-                                    <div class="d-flex align-items-center gap-1 pra fs-eight heading-font">
-                                        <i class="fa-regular fa-clock black"></i> 14 July, 2024
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="news-single-items rounded-3 p-xxl-2 p-1 border overflow-hidden style1">
-                            <a href="blog-details.html"
-                                class="news-image position-relative d-block rounded-3 overflow-hidden">
-                                <img src="assets/img/blog/blog-grid2.png" alt="news-img"
-                                    class="rounded-3 overflow-hidden">
-                                <span
-                                    class="m-lg-3 m-sm-2 m-1 trns blog-badge1 position-absolute top-0 start-0 z-1 fw_500 bg-white d-inline-block py-xl-2 py-1 px-3 rounded-5 text-uppercase fs-eight black">AGENCY</span>
-                            </a>
-                            <div class="news-content">
-                                <h4 class="mb-xxl-4 mb-3 pb-xxl-1">
-                                    <a href="blog-details.html" class="black visible-slowly-right">
-                                        Corporate agencies bring a
-                                        wealth of knowledge
-                                    </a>
-                                </h4>
-                                <div class="d-flex align-items-center justify-content-between">
-                                    <div class="author d-flex align-items-center gap-2">
-                                        <img src="assets/img/blog/blog-author2.png" alt="img"
-                                            class="rounded-circle author-img">
-                                        <span class="fs-seven fw_500 black">Richard Pitter</span>
-                                    </div>
-                                    <div class="d-flex align-items-center gap-1 pra fs-eight heading-font">
-                                        <i class="fa-regular fa-clock black"></i> 14 July, 2024
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="news-single-items rounded-3 p-xxl-2 p-1 border overflow-hidden style1">
-                            <a href="blog-details.html"
-                                class="news-image position-relative d-block rounded-3 overflow-hidden">
-                                <img src="assets/img/blog/blog-grid3.png" alt="news-img"
-                                    class="rounded-3 overflow-hidden">
-                                <span
-                                    class="m-lg-3 m-sm-2 m-1 trns blog-badge1 position-absolute top-0 start-0 z-1 fw_500 bg-white d-inline-block py-xl-2 py-1 px-3 rounded-5 text-uppercase fs-eight black">BUSINESS</span>
-                            </a>
-                            <div class="news-content">
-                                <h4 class="mb-xxl-4 mb-3 pb-xxl-1">
-                                    <a href="blog-details.html" class="black visible-slowly-right">
-                                        A leading global marketing and
-                                        communications agency
-                                    </a>
-                                </h4>
-                                <div class="d-flex align-items-center justify-content-between">
-                                    <div class="author d-flex align-items-center gap-2">
-                                        <img src="assets/img/blog/blog-author3.png" alt="img"
-                                            class="rounded-circle author-img">
-                                        <span class="fs-seven fw_500 black">Vishal Pandey</span>
-                                    </div>
-                                    <div class="d-flex align-items-center gap-1 pra fs-eight heading-font">
-                                        <i class="fa-regular fa-clock black"></i> 14 July, 2024
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Custom Section Start -->
-    <section class="custom-contact-section bg-color2 fix">
-        <div class="container-fluid p-0">
-            <div class="row g-0 align-items-center">
-                <div class="col-lg-5 order-lg-0 order-1">
-                    <div class="contact-thumb1 w-100">
-                        <img src="assets/img/contact/contact-thumb1.html" alt="img" class="w-100">
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="custom-contact-form">
-                        <div class="box">
-                            <h3 class="black mb-4 pb-lg-2">Let’s collaborate with us</h3>
-                            <div class="d-flex align-items-center gap-xxl-5 gap-xl-4 gap-sm-3 gap-2 flex-wrap mb-40">
-                                <a href="#" class="d-flex align-items-center gap-1 pra fw_500">
-                                    <span class="cion p1-bg d-center rounded-circle">
-                                        <i class="fas fa-phone-volume"></i>
-                                    </span>
-                                    (+806) 000 88 99
-                                </a>
-                                <a href="#" class="d-flex align-items-center gap-1 pra fw_500">
-                                    <span class="cion p1-bg d-center rounded-circle">
-                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M6.1 8.99946C6.1 9.16515 5.96569 9.29946 5.8 9.29946C5.63431 9.29946 5.5 9.16515 5.5 8.99946C5.5 8.83378 5.63431 8.69946 5.8 8.69946C5.96569 8.69946 6.1 8.83378 6.1 8.99946ZM9.3 8.99946C9.3 9.16515 9.16569 9.29946 9 9.29946C8.83431 9.29946 8.7 9.16515 8.7 8.99946C8.7 8.83378 8.83431 8.69946 9 8.69946C9.16569 8.69946 9.3 8.83378 9.3 8.99946ZM12.5 8.99946C12.5 9.16515 12.3657 9.29946 12.2 9.29946C12.0343 9.29946 11.9 9.16515 11.9 8.99946C11.9 8.83378 12.0343 8.69946 12.2 8.69946C12.3657 8.69946 12.5 8.83378 12.5 8.99946Z"
-                                                stroke="white" />
-                                            <path
-                                                d="M13 2.07026C11.8233 1.38958 10.4571 1 9 1C4.58172 1 1 4.58172 1 9C1 10.2797 1.30049 11.4893 1.83477 12.562C1.97675 12.847 2.02401 13.1729 1.94169 13.4805L1.46521 15.2613C1.25836 16.0344 1.96561 16.7416 2.73868 16.5348L4.51951 16.0583C4.82715 15.976 5.15297 16.0233 5.43802 16.1652C6.51069 16.6995 7.72025 17 9 17C13.4183 17 17 13.4183 17 9C17 7.54285 16.6104 6.17669 15.9297 5"
-                                                stroke="white" stroke-width="1.5" stroke-linecap="round" />
-                                        </svg>
-                                    </span>
-                                    contact@info.com
-                                </a>
-                            </div>
-                            <form action="#0" class="row g-4">
-                                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
-                                    <div class="form-grp">
-                                        <input type="text" placeholder="Enter your name">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
-                                    <div class="form-grp">
-                                        <input type="email" placeholder="Enter your email">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
-                                    <div class="form-grp">
-                                        <input type="text" placeholder="Mobile no">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
-                                    <div class="form-grp">
-                                        <input type="text" placeholder="Company">
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 wow fadeInUp" data-wow-delay=".4s">
-                                    <div class="form-grp">
-                                        <textarea name="message" rows="5" placeholder="Your message"></textarea>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 wow fadeInUp" data-wow-delay=".5s">
-                                    <div class="btn-ara">
-                                        <a href="contact.html"
-                                            class="common-btn box-style cmn-style1 box-bg white d-inline-flex justify-content-center align-items-center gap-xxl-2 gap-2 overflow-hidden rounded-5">
-                                            Send Message
-                                        </a>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Custom Section end -->
-
-    <!--<< Customer Touch Section Start >>-->
-    <section class="customer-touch fix">
-        <div class="container">
-            <div class="customer-touch-wrap">
-                <div class="section-title">
-                    <span class="sub-badge white fs-seven text-uppercase d-block mb-2">Get to meet Your Next
-                        Agency</span>
-                    <h2 class="wow fadeInUp white fw-bold visible-slowly-right" data-wow-delay=".3s">
-                        We’re delivering the best
-                        customer experience
-                    </h2>
-                </div>
-                <a href="contact.html"
-                    class="common-btn text-nowrap heading-font box-style d-inline-flex justify-content-center align-items-center gap-xxl-2 gap-2 fs18 fw-semibold black overflow-hidden bg-white rounded100">
-                    Get In Touch
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!--<< Footer Section Start >>-->
-    <footer class="footer-section style blackbg fix">
-        <div class="container">
-            <div class="footer-widgets-wrapper">
-                <div class="row g-lg-4 g-4 justify-content-between">
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="top-rated-pragraph">
-                            <h5 class="white mb-lg-5 mb-4">
-                                <span class="p3-clr">Top-rated</span> technology
-                                business idea for your success
-                            </h5>
-                            <form action="#" class="form-style1 d-flex align-items-center justify-content-between">
-                                <input type="text" placeholder="Enter your mail">
-                                <button type="button"><i class="fa-regular fa-envelope"></i></button>
-                            </form>
-                            <div class="form-check cmn-checkbox mt-3">
-                                <input class="form-check-input" type="checkbox" value="" id="mycheck">
-                                <label class="form-check-label fs-eight white65" for="mycheck">
-                                    I accept all terms and conditions
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-6 col-sm-6">
-                        <div class="single-footer-widget wow fadeInUp" data-wow-delay="0.5s">
-                            <div class="boxes">
-                                <div class="widget-head">
-                                    <h3>Navigation</h3>
-                                </div>
-                                <ul class="list-area">
-                                    <li>
-                                        <a href="about.html">
-                                            About us
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="team.html">
-                                            Meet our team
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="blog.html">
-                                            News and media
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="portfolio.html">
-                                            Our projects
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="contact.html">
-                                            Contacts
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="single-footer-widget d-flex justify-content-lg-center wow fadeInUp"
-                            data-wow-delay="0.5s">
-                            <div class="boxes">
-                                <div class="widget-head">
-                                    <h3>Others page</h3>
-                                </div>
-                                <ul class="list-area">
-                                    <li>
-                                        <a href="contact.html">
-                                            Client support
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="contact.html">
-                                            Help center
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="contact.html">
-                                            System status
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="contact.html">
-                                            Feedback
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="contact.html">
-                                            Terms & condition
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="single-footer-widget d-flex justify-content-lg-center wow fadeInUp"
-                            data-wow-delay="0.5s">
-                            <div class="boxes">
-                                <div class="widget-head">
-                                    <h3>Need Help?</h3>
-                                </div>
-                                <div class="list-info d-grid gap-3 mb-4">
-                                    <div class="list-info-item">
-                                        <span class="fs-eight white65 d-block">Call Us Directly</span>
-                                        <a href="#0" class="white fw-semibold">+(1) 224 676 7430</a>
-                                    </div>
-                                    <div class="list-info-item">
-                                        <span class="fs-eight white65 d-block">Need Support?</span>
-                                        <a href="#0" class="white fw-semibold">Fakir Ventures@gmail.com</a>
-                                    </div>
-                                </div>
-                                <div class="social-custom d-flex align-items-center gap-xl-4 gap-3">
-                                    <a href="#" class=" black"><i class="fab fa-facebook-f white65 fs-six"></i></a>
-                                    <a href="#" class=" black"><i class="fa-brands fa-x white65 fs-six"></i></a>
-                                    <a href="#" class=" black"><i class="fab fa-linkedin-in white65 fs-six"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div
-                    class="footer-wrapper d-flex flex-md-nowrap flex-wrap gap-3 align-items-center justify-content-md-between justify-content-center text-md-start text-center">
-                    <a href="index.html" class="footer-logo">
-                        <img src="assets/img/logo/logo-white.png" alt="img">
-                    </a>
-                    <p class="white65">
-                        &copy;2025 <a href="index.html" class="white fw_500">Fakir Ventures.</a> All images are for demo purposes
-                        only.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-
-    <!-- Search Area Start -->
-    <div class="search-wrap">
-        <div class="search-inner">
-            <i class="fas fa-times search-close" id="search-close"></i>
-            <div class="search-cell">
-                <form method="get">
-                    <div class="search-field-holder">
-                        <input type="search" class="main-search-input" placeholder="Search...">
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-
-    <!--<< All JS Plugins >>-->
-    <script src="assets/js/jquery-3.7.1.min.js"></script>
-    <!--<< Viewport Js >>-->
-    <script src="assets/js/viewport.jquery.js"></script>
-    <!--<< Bootstrap Js >>-->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <!--<< Nice Select Js >>-->
-    <script src="assets/js/jquery.nice-select.min.js"></script>
-    <!--<< Waypoints Js >>-->
-    <script src="assets/js/jquery.waypoints.js"></script>
-    <!--<< Counterup Js >>-->
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <!--<< Swiper Slider Js >>-->
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <!--<< MeanMenu Js >>-->
-    <script src="assets/js/jquery.meanmenu.min.js"></script>
-    <!--<< Magnific Popup Js >>-->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <!--<< Wow Animation Js >>-->
-    <script src="assets/js/wow.min.js"></script>
-    <!--<< Gsap Js >>-->
-    <script src="assets/js/gsap.min.js"></script>
-    <!--<< Lenis Js >>-->
-    <script src="assets/js/lenis.min.js"></script>
-    <!--<< ScrollSmoother Js >>-->
-    <script src="assets/js/scrollSmoother.js"></script>
-    <!--<< ScrollTrigger Js >>-->
-    <script src="assets/js/ScrollTrigger.min.js"></script>
-    <!--<< Spalit Text Js >>-->
-    <script src="assets/js/spilitext-gsap.js"></script>
-    <!--<< Valina Tilt Js >>-->
-    <script src="assets/js/vanilla-tilt.min.js"></script>
-    <!--<< Main.js >>-->
-    <script src="assets/js/main.js"></script>
 </body>
-
 
 </html>

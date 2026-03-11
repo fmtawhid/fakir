@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Fakir Ventures | Child Companies</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    .arabic {
+      font-family: 'Amiri', serif;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-950 text-white min-h-screen flex flex-col">
+  <!-- HEADER (Updated with active state) -->
+  <header class="bg-gray-900/80 backdrop-blur-md fixed w-full z-50 border-b border-gray-800">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="index.html" class="text-2xl font-bold text-green-400">Fakir Ventures</a>
+      <nav class="hidden md:flex space-x-8">
+        <a href="index.html" class="hover:text-green-400">Home</a>
+        <a href="about.html" class="hover:text-green-400">About</a>
+        <a href="child-companies.html" class="text-green-400">Child Companies</a>
+        <a href="sectors.html" class="hover:text-green-400">Sectors</a>
+        <a href="investors-partners.html" class="hover:text-green-400">Investors &amp; Partners</a>
+        <a href="contact.html" class="hover:text-green-400">Contact</a>
+      </nav>
+      <a href="investors-partners.html"
+        class="bg-green-500 px-5 py-2 rounded-lg text-black font-semibold hover:bg-green-400">
+        Invest
+      </a>
+    </div>
+  </header>
+
+  <main class="flex-1 pt-28 pb-16">
+    <section class="max-w-7xl mx-auto px-6">
+
+      <!-- Hero with Arabic Ayat -->
+      <div class="text-center mb-8">
+        <div class="arabic text-2xl md:text-3xl text-green-400 leading-loose bg-black/40 p-4 rounded-2xl border border-green-500/30 backdrop-blur-sm inline-block mb-4">
+          بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+        </div>
+        <h1 class="text-4xl md:text-5xl font-bold text-green-400">
+          Our Portfolio
+        </h1>
+        <p class="text-gray-300 text-center max-w-3xl mx-auto mt-4">
+          50+ child companies across high-impact sectors, powered by a dedicated team of 5 core members.
+        </p>
+      </div>
+
+      <!-- Stats Summary -->
+      <!-- <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto mb-10">
+        <div class="bg-gray-900 p-4 rounded-lg text-center border border-gray-800">
+          <div class="text-2xl font-bold text-green-400">50+</div>
+          <div class="text-sm text-gray-400">Total Companies</div>
+        </div>
+        <div class="bg-gray-900 p-4 rounded-lg text-center border border-gray-800">
+          <div class="text-2xl font-bold text-green-400">10</div>
+          <div class="text-sm text-gray-400">Sectors</div>
+        </div>
+        <div class="bg-gray-900 p-4 rounded-lg text-center border border-gray-800">
+          <div class="text-2xl font-bold text-green-400">5</div>
+          <div class="text-sm text-gray-400">Core Team</div>
+        </div>
+        <div class="bg-gray-900 p-4 rounded-lg text-center border border-gray-800">
+          <div class="text-2xl font-bold text-green-400">$250M+</div>
+          <div class="text-sm text-gray-400">Combined Value</div>
+        </div>
+      </div> -->
+
+      <!-- FILTER SECTION -->
+      <div class="bg-gray-900/50 p-6 rounded-xl border border-gray-800 mb-8">
+        <h2 class="text-xl font-semibold text-green-400 text-center mb-4">Filter by Sector</h2>
+        <div class="flex flex-wrap justify-center gap-2">
+          <button onclick="filterSector('all')" class="filter-btn bg-green-500 text-black px-4 py-2 rounded-lg text-sm font-semibold hover:bg-green-400 transition">All</button>
+          <button onclick="filterSector('Agriculture')" class="filter-btn bg-gray-800 px-4 py-2 rounded-lg text-sm hover:bg-green-500 hover:text-black transition">🌾 Agriculture</button>
+          <button onclick="filterSector('Software')" class="filter-btn bg-gray-800 px-4 py-2 rounded-lg text-sm hover:bg-green-500 hover:text-black transition">💻 Software</button>
+          <button onclick="filterSector('Legal')" class="filter-btn bg-gray-800 px-4 py-2 rounded-lg text-sm hover:bg-green-500 hover:text-black transition">⚖️ Legal Tech</button>
+          <button onclick="filterSector('Education')" class="filter-btn bg-gray-800 px-4 py-2 rounded-lg text-sm hover:bg-green-500 hover:text-black transition">📚 Education</button>
+          <button onclick="filterSector('Medical')" class="filter-btn bg-gray-800 px-4 py-2 rounded-lg text-sm hover:bg-green-500 hover:text-black transition">🏥 Medical</button>
+          <button onclick="filterSector('Fashion')" class="filter-btn bg-gray-800 px-4 py-2 rounded-lg text-sm hover:bg-green-500 hover:text-black transition">👔 Fashion</button>
+          <button onclick="filterSector('Airlines')" class="filter-btn bg-gray-800 px-4 py-2 rounded-lg text-sm hover:bg-green-500 hover:text-black transition">✈️ Airlines</button>
+          <button onclick="filterSector('Technology')" class="filter-btn bg-gray-800 px-4 py-2 rounded-lg text-sm hover:bg-green-500 hover:text-black transition">🔧 Technology</button>
+          <button onclick="filterSector('Fintech')" class="filter-btn bg-gray-800 px-4 py-2 rounded-lg text-sm hover:bg-green-500 hover:text-black transition">💰 Fintech</button>
+          <button onclick="filterSector('Energy')" class="filter-btn bg-gray-800 px-4 py-2 rounded-lg text-sm hover:bg-green-500 hover:text-black transition">⚡ Energy</button>
+          <button onclick="filterSector('Logistics')" class="filter-btn bg-gray-800 px-4 py-2 rounded-lg text-sm hover:bg-green-500 hover:text-black transition">📦 Logistics</button>
+          <button onclick="filterSector('Media')" class="filter-btn bg-gray-800 px-4 py-2 rounded-lg text-sm hover:bg-green-500 hover:text-black transition">📺 Media</button>
+        </div>
+      </div>
+
+      <!-- COUNT DISPLAY -->
+      <p id="countText" class="text-center text-gray-400 mb-8 text-lg">
+        Showing <span class="text-green-400 font-bold" id="visibleCount">50</span> of 50 child companies
+      </p>
+
+      <!-- COMPANIES GRID -->
+      <div id="companyGrid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <!-- FEATURED COMPANY: Growsoft (Software) -->
+        <article class="company bg-gradient-to-br from-gray-900 to-gray-800 p-6 rounded-xl border-2 border-green-500/30 hover:border-green-400 transition transform hover:scale-105"
+          data-sector="Software">
+          <div class="flex justify-between items-start mb-3">
+            <h2 class="text-xl font-bold text-green-400">Growsoft</h2>
+            <span class="bg-green-500/20 text-green-400 text-xs px-2 py-1 rounded-full">Featured</span>
+          </div>
+          <p class="text-gray-300 mt-2">Leading software development company creating innovative AI-powered solutions for businesses worldwide. Specializing in custom software, mobile apps, and enterprise solutions.</p>
+          <div class="mt-4 flex items-center justify-between text-sm">
+            <span class="text-gray-500">Team: 12 Developers</span>
+            <span class="bg-gray-800 px-3 py-1 rounded-full text-green-400">📍 Dhaka</span>
+          </div>
+        </article>
+
+        <!-- FEATURED COMPANY: FakirAgro (Agriculture) -->
+        <article class="company bg-gradient-to-br from-gray-900 to-gray-800 p-6 rounded-xl border-2 border-green-500/30 hover:border-green-400 transition transform hover:scale-105"
+          data-sector="Agriculture">
+          <div class="flex justify-between items-start mb-3">
+            <h2 class="text-xl font-bold text-green-400">FakirAgro</h2>
+            <span class="bg-green-500/20 text-green-400 text-xs px-2 py-1 rounded-full">Featured</span>
+          </div>
+          <p class="text-gray-300 mt-2">Revolutionizing agriculture with AI-driven crop optimization, smart irrigation systems, and sustainable farming solutions for rural Bangladesh and beyond.</p>
+          <div class="mt-4 flex items-center justify-between text-sm">
+            <span class="text-gray-500">Team: 15 Specialists</span>
+            <span class="bg-gray-800 px-3 py-1 rounded-full text-green-400">📍 Rural BD</span>
+          </div>
+        </article>
+
+        <!-- FEATURED COMPANY: Shihab Law (Legal) -->
+        <article class="company bg-gradient-to-br from-gray-900 to-gray-800 p-6 rounded-xl border-2 border-green-500/30 hover:border-green-400 transition transform hover:scale-105"
+          data-sector="Legal">
+          <div class="flex justify-between items-start mb-3">
+            <h2 class="text-xl font-bold text-green-400">Shihab Law</h2>
+            <span class="bg-green-500/20 text-green-400 text-xs px-2 py-1 rounded-full">Featured</span>
+          </div>
+          <p class="text-gray-300 mt-2">Specialized formula and legal technology company providing innovative solutions for legal professionals. AI-powered case management and legal research tools.</p>
+          <div class="mt-4 flex items-center justify-between text-sm">
+            <span class="text-gray-500">Team: 8 Legal Experts</span>
+            <span class="bg-gray-800 px-3 py-1 rounded-full text-green-400">📍 Dhaka</span>
+          </div>
+        </article>
+
+        <!-- Agriculture Companies -->
+        <article class="company bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-green-400 transition"
+          data-sector="Agriculture">
+          <h2 class="text-xl font-bold text-green-400">AgriTech Innovate</h2>
+          <p class="text-gray-400 mt-2">Revolutionizing farming with AI-driven crop optimization and Web3 supply chains.</p>
+          <div class="mt-4 flex items-center justify-between text-sm">
+            <span class="text-gray-500">Team: 18 Specialists</span>
+            <span class="bg-gray-800 px-3 py-1 rounded-full">🌾 Agritech</span>
+          </div>
+        </article>
+
+        <article class="company bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-green-400 transition"
+          data-sector="Agriculture">
+          <h2 class="text-xl font-bold text-green-400">FarmLedger Nexus</h2>
+          <p class="text-gray-400 mt-2">Tokenized procurement workflows for transparent farm contracts.</p>
+          <div class="mt-4 flex items-center justify-between text-sm">
+            <span class="text-gray-500">Team: 21 Specialists</span>
+            <span class="bg-gray-800 px-3 py-1 rounded-full">🌾 Agritech</span>
+          </div>
+        </article>
+
+        <article class="company bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-green-400 transition"
+          data-sector="Agriculture">
+          <h2 class="text-xl font-bold text-green-400">CropSense Dynamics</h2>
+          <p class="text-gray-400 mt-2">Sensor & satellite intelligence for yield planning.</p>
+          <div class="mt-4 flex items-center justify-between text-sm">
+            <span class="text-gray-500">Team: 24 Specialists</span>
+            <span class="bg-gray-800 px-3 py-1 rounded-full">🌾 Agritech</span>
+          </div>
+        </article>
+
+        <!-- Education -->
+        <article class="company bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-green-400 transition"
+          data-sector="Education">
+          <h2 class="text-xl font-bold text-green-400">EduAI Labs</h2>
+          <p class="text-gray-400 mt-2">Personalized AI learning platforms with blockchain credentials.</p>
+          <div class="mt-4 flex items-center justify-between text-sm">
+            <span class="text-gray-500">Team: 20 Specialists</span>
+            <span class="bg-gray-800 px-3 py-1 rounded-full">📚 Edtech</span>
+          </div>
+        </article>
+
+        <article class="company bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-green-400 transition"
+          data-sector="Education">
+          <h2 class="text-xl font-bold text-green-400">LearnChain Academy</h2>
+          <p class="text-gray-400 mt-2">Credential verification networks for schools and employers.</p>
+          <div class="mt-4 flex items-center justify-between text-sm">
+            <span class="text-gray-500">Team: 23 Specialists</span>
+            <span class="bg-gray-800 px-3 py-1 rounded-full">📚 Edtech</span>
+          </div>
+        </article>
+
+        <!-- Medical -->
+        <article class="company bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-green-400 transition"
+          data-sector="Medical">
+          <h2 class="text-xl font-bold text-green-400">MedChain Solutions</h2>
+          <p class="text-gray-400 mt-2">Blockchain-enabled health records & AI diagnostics.</p>
+          <div class="mt-4 flex items-center justify-between text-sm">
+            <span class="text-gray-500">Team: 22 Specialists</span>
+            <span class="bg-gray-800 px-3 py-1 rounded-full">🏥 Healthtech</span>
+          </div>
+        </article>
+
+        <!-- Airlines -->
+        <article class="company bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-green-400 transition"
+          data-sector="Airlines">
+          <h2 class="text-xl font-bold text-green-400">AeroNet Airlines</h2>
+          <p class="text-gray-400 mt-2">AI route optimization & decentralized booking systems.</p>
+          <div class="mt-4 flex items-center justify-between text-sm">
+            <span class="text-gray-500">Team: 26 Specialists</span>
+            <span class="bg-gray-800 px-3 py-1 rounded-full">✈️ Aviation</span>
+          </div>
+        </article>
+
+        <!-- Fintech -->
+        <article class="company bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-green-400 transition"
+          data-sector="Fintech">
+          <h2 class="text-xl font-bold text-green-400">BlockBridge Capital</h2>
+          <p class="text-gray-400 mt-2">Institutional tokenized asset workflows.</p>
+          <div class="mt-4 flex items-center justify-between text-sm">
+            <span class="text-gray-500">Team: 30 Specialists</span>
+            <span class="bg-gray-800 px-3 py-1 rounded-full">💰 Fintech</span>
+          </div>
+        </article>
+
+        <!-- Energy -->
+        <article class="company bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-green-400 transition"
+          data-sector="Energy">
+          <h2 class="text-xl font-bold text-green-400">HelioGrid Renewables</h2>
+          <p class="text-gray-400 mt-2">Solar optimization with predictive generation models.</p>
+          <div class="mt-4 flex items-center justify-between text-sm">
+            <span class="text-gray-500">Team: 32 Specialists</span>
+            <span class="bg-gray-800 px-3 py-1 rounded-full">⚡ Energy</span>
+          </div>
+        </article>
+
+        <!-- Logistics -->
+        <article class="company bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-green-400 transition"
+          data-sector="Logistics">
+          <h2 class="text-xl font-bold text-green-400">RouteMesh Logistics</h2>
+          <p class="text-gray-400 mt-2">AI route orchestration for delivery networks.</p>
+          <div class="mt-4 flex items-center justify-between text-sm">
+            <span class="text-gray-500">Team: 34 Specialists</span>
+            <span class="bg-gray-800 px-3 py-1 rounded-full">📦 Logistics</span>
+          </div>
+        </article>
+
+        <!-- Media -->
+        <article class="company bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-green-400 transition"
+          data-sector="Media">
+          <h2 class="text-xl font-bold text-green-400">StoryByte Media</h2>
+          <p class="text-gray-400 mt-2">AI-assisted content strategy and distribution intelligence.</p>
+          <div class="mt-4 flex items-center justify-between text-sm">
+            <span class="text-gray-500">Team: 36 Specialists</span>
+            <span class="bg-gray-800 px-3 py-1 rounded-full">📺 Media</span>
+          </div>
+        </article>
+
+        <!-- Software (More) -->
+        <article class="company bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-green-400 transition"
+          data-sector="Software">
+          <h2 class="text-xl font-bold text-green-400">CodeCraft Solutions</h2>
+          <p class="text-gray-400 mt-2">Custom software development and digital transformation.</p>
+          <div class="mt-4 flex items-center justify-between text-sm">
+            <span class="text-gray-500">Team: 28 Engineers</span>
+            <span class="bg-gray-800 px-3 py-1 rounded-full">💻 Software</span>
+          </div>
+        </article>
+
+        <!-- Legal Tech (More) -->
+        <article class="company bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-green-400 transition"
+          data-sector="Legal">
+          <h2 class="text-xl font-bold text-green-400">LegalMind AI</h2>
+          <p class="text-gray-400 mt-2">AI-powered legal research and document automation.</p>
+          <div class="mt-4 flex items-center justify-between text-sm">
+            <span class="text-gray-500">Team: 15 Legal Techs</span>
+            <span class="bg-gray-800 px-3 py-1 rounded-full">⚖️ Legal</span>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- Note about 50+ Companies -->
+      <div class="mt-12 text-center">
+        <div class="inline-block bg-gray-900 border border-green-500 rounded-lg px-6 py-4">
+          <p class="text-green-400 font-semibold">🌟 And 35+ more companies across all sectors</p>
+          <p class="text-gray-400 text-sm mt-2">Total portfolio: 50+ companies | Powered by 5 core team members</p>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <script>
+    function filterSector(sector) {
+      const companies = document.querySelectorAll('.company');
+      let visibleCount = 0;
+
+      companies.forEach(company => {
+        if (sector === 'all' || company.dataset.sector === sector) {
+          company.style.display = "block";
+          visibleCount++;
+        } else {
+          company.style.display = "none";
+        }
+      });
+
+      document.getElementById('countText').innerHTML = 
+        `Showing <span class="text-green-400 font-bold">${visibleCount}</span> of 50 child companies`;
+    }
+
+    // Update filter button active state
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', function() {
+        document.querySelectorAll('.filter-btn').forEach(b => {
+          if(b.classList.contains('bg-green-500')) {
+            b.classList.remove('bg-green-500', 'text-black');
+            b.classList.add('bg-gray-800');
+          }
+        });
+        this.classList.remove('bg-gray-800');
+        this.classList.add('bg-green-500', 'text-black');
+      });
+    });
+  </script>
+
+  <!-- FOOTER (Updated) -->
+  <footer class="bg-black py-12 mt-12">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid md:grid-cols-4 gap-8 mb-8">
+        <div>
+          <h3 class="text-2xl font-bold text-green-400 mb-4">Fakir Ventures</h3>
+          <p class="text-gray-400">Building the future with AI & Agriculture since 2020.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold text-white mb-4">Quick Links</h4>
+          <ul class="space-y-2 text-gray-400">
+            <li><a href="about.html" class="hover:text-green-400">About Us</a></li>
+            <li><a href="child-companies.html" class="hover:text-green-400">Portfolio</a></li>
+            <li><a href="sectors.html" class="hover:text-green-400">Sectors</a></li>
+            <li><a href="contact.html" class="hover:text-green-400">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold text-white mb-4">Legal</h4>
+          <ul class="space-y-2 text-gray-400">
+            <li><a href="#" class="hover:text-green-400">Privacy Policy</a></li>
+            <li><a href="#" class="hover:text-green-400">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold text-white mb-4">Follow Us</h4>
+          <div class="flex space-x-4">
+            <a href="#" class="text-gray-400 hover:text-green-400">LinkedIn</a>
+            <a href="#" class="text-gray-400 hover:text-green-400">Twitter</a>
+          </div>
+        </div>
+      </div>
+      <div class="border-t border-gray-800 pt-8 text-center text-gray-500 text-sm">
+        © 2026 Fakir Ventures. All rights reserved. | Powered by 5 Core Members
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
